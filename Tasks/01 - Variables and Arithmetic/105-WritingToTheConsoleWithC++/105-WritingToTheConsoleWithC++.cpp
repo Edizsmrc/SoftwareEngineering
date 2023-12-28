@@ -19,9 +19,9 @@ int main()
     // Setting precision is not so easy?
     float radius = 10.0f;
     float area = 3.415926 * radius * radius;
-
+    
     cout << fixed;
-    cout << setprecision(1);
+    cout << setprecision(1); 
     cout << "The area of a circle with radius " << radius << " is " << area << endl;
 
     // You can output complex strings to the terminal
